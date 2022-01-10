@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/lucaspape/aztube-backend-deploy/issues"
   },
-  "homepage": "https://github.com/lucaspape/aztube-backend-deploy#readme"
+  "homepage": "https://github.com/lucaspape/aztube-backend-deploy#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
