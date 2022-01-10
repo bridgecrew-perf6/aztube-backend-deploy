@@ -7,7 +7,7 @@ const API_PREFIX = '';
 const app = express();
 
 app.get(API_PREFIX + '/deploy', (req,res) => {
-  res.send('OK');
+  console.log('Running build');
 
   exec('/home/azproject/deploy.sh', (error, stdout, stderr) => {
     if(error || stderr){
